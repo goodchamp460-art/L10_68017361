@@ -6,13 +6,23 @@
 cd L_10
 ```
 
-### 2. เข้าveneหลังจากcd l10เเล้ว
+### 2. สร้าง venv ขึ้นมาใหม่(ไม่งั้นจะเเสดงไม่ได้)
+```bash
+python -m venv venv
+```
+
+### 3. ใช่คำสั่งนี้เพื่อเข้า venv
 ```bash
 venv\Scripts\activate
+```
+
+### 4. หลังจากมี venv อยู่นำหน้าชื่อตรงTerminalให้ติดตั้ง django ลงvenv
+```bash
+pip install django
 
 ```
 
-### 3. เข้าโฟลเดอร์โปรเจกต์
+### 5. เข้าโฟลเดอร์โปรเจกต์
 ```bash
 cd myproject
 ```
