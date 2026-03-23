@@ -11,7 +11,7 @@ cd L_10
 python -m venv venv
 ```
 
-### 3. ใช่คำสั่งนี้เพื่อเข้า venv
+### 3. ใชhคำสั่งนี้เพื่อเข้า venv
 ```bash
 venv\Scripts\activate
 ```
